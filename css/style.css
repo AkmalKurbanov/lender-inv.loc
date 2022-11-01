@@ -3779,115 +3779,116 @@ label span {
 
 
 /* balans edits */
-.balance-edits .sub-header-item.balans p {
+
+.balance-edits.balans p {
   font-size: 36px;
 }
 
-.balance-edits .sub-header-item.balans p .green,
-.balance-edits .sub-header-item.in-month p .green {
+.balance-edits.balans p .green,
+.balance-edits.in-month p .green {
   margin-left: 5px;
 }
 
-.balance-edits .sub-header-item.balans p .kop {
+.balance-edits.balans p .kop {
   font-size: 26px;
 }
 
-.balance-edits .sub-header-item.in-month p .kop {
+.balance-edits.in-month p .kop {
   font-size: 20px;
 }
 
-.balance-edits .sub-header-item.in-month p {
+.balance-edits.in-month p {
   font-size: 26px;
 }
 
-.balance-edits .sub-header-item.procents p {
+.balance-edits.procents p {
   font-size: 26px;
 }
 
 @media (max-width: 1199.98px) {
-  .balance-edits .sub-header-item.balans p {
+  .balance-edits.balans p {
     font-size: 30px;
   }
 
-  .balance-edits .sub-header-item.balans p .kop {
+  .balance-edits.balans p .kop {
     font-size: 20px;
   }
 
-  .balance-edits .sub-header-item.in-month p {
+  .balance-edits.in-month p {
     font-size: 20px;
   }
 
-  .balance-edits .sub-header-item.in-month p .kop {
+  .balance-edits.in-month p .kop {
     font-size: 15px;
   }
 
-  .balance-edits .sub-header-item.procents p {
+  .balance-edits.procents p {
     font-size: 20px;
   }
 
-  .balance-edits .sub-header-item.balans p .green,
-  .balance-edits .sub-header-item.in-month p .green {
+  .balance-edits.balans p .green,
+  .balance-edits.in-month p .green {
     font-size: 20px;
   }
 }
 
 @media (max-width: 767.98px) {
-  .balance-edits .sub-header-item.balans {
+  .balance-edits.balans {
     flex: 0 0 37%;
     max-width: 37%;
   }
 
-  .balance-edits .sub-header-item.in-month {
+  .balance-edits.in-month {
     flex: 0 0 28%;
     max-width: 28%;
   }
 
-  .balance-edits .sub-header-item.in-month.col-sm-5 {
+  .balance-edits.in-month.col-sm-5 {
     flex: 0 0 37%;
     max-width: 37%;
   }
 
-  .balance-edits .sub-header-item.balans p {
+  .balance-edits.balans p {
     font-size: 20px;
   }
 
-  .balance-edits .sub-header-item.balans p .kop {
+  .balance-edits.balans p .kop {
     font-size: 15px;
   }
 
-  .balance-edits .sub-header-item.in-month p {
+  .balance-edits.in-month p {
     font-size: 15px;
   }
 
-  .balance-edits .sub-header-item.in-month p .kop {
+  .balance-edits.in-month p .kop {
     font-size: 12px;
   }
 }
 
 @media (max-width: 575.98px) {
 
-  .balance-edits .sub-header-item.balans,
-  .balance-edits .sub-header-item.in-month,
-  .balance-edits .sub-header-item.procents {
+  .balance-edits.balans,
+  .balance-edits.in-month,
+  .balance-edits.procents {
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
 
-  .balance-edits .sub-header-item.balans p {
+  .balance-edits.balans p {
     font-size: 27px;
   }
 
-  .balance-edits .sub-header-item.balans p .kop {
+  .balance-edits.balans p .kop {
     font-size: 20px;
   }
 
-  .balance-edits .sub-header-item.in-month p,
-  .balance-edits .sub-header-item.procents p {
+  .balance-edits.in-month p,
+  .balance-edits.procents p {
     font-size: 26px;
   }
 
-  .balance-edits .sub-header-item.in-month p .kop,
-  .balance-edits .sub-header-item.procents p .kop {
+  .balance-edits.in-month p .kop,
+  .balance-edits.procents p .kop {
     font-size: 20px;
   }
 
